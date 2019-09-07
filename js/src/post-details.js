@@ -84,6 +84,7 @@ $(document).ready(function () {
         scrollTop: offset
       }, 500);
   });
+  
 
   // Expand sidebar on post detail page by default, when post has a toc.
   var $tocContent = $('.post-toc-content');
@@ -97,3 +98,5 @@ $(document).ready(function () {
       }) : NexT.utils.displaySidebar();
   }
 });
+
+
